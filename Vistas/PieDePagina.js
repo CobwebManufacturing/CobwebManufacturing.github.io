@@ -16,7 +16,7 @@ class PieDePagina extends HTMLElement{
   
         <div class="container-fluid px-5 text-end">
         <h6 class="text-end letraF"><b>Elaborado por:</b></h6>
-        <img src="/home/redes/Desarrollo/Cobweb/Cobweb.github.io/Imagenes/Cobweb-Development.png" class="img-fluid"  width="40rem" height="40rem">
+        <img src="https://raw.githubusercontent.com/CobwebManufacturing/CobwebManufacturing.github.io/main/Imagenes/Cobweb-Development.png" class="img-fluid"  width="40rem" height="40rem">
         </div
         `;
         this.appendChild(elementoHtml);
