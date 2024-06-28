@@ -13,3 +13,47 @@
 .letraF {
     color: #FFFFFF;
 }
+
+.bloque_responsivo {
+    margin: 0 auto;
+    width: 32%;
+}
+
+@media (max-width: 1000px) {
+    .bloque_responsivo {
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .bloque_responsivo {
+        margin: 0 auto;
+        width: 100%;
+        padding: 0% 15%;
+    }
+}
+
+@media (max-width: 530px) {
+    .bloque_responsivo {
+        margin: 0 auto;
+        width: 100%;
+        padding: 0% 7%;
+    }
+}
+
+@media (max-width: 470px) {
+    .bloque_responsivo {
+        flex: 0 1 auto;
+        width: 100%;
+        padding: 0% 5%;
+    }
+}
+
+@media (max-width: 420px) {
+    .bloque_responsivo {
+        flex: 0 1 auto;
+        width: 100%;
+        padding: 0% 5%;
+    }
+}
